@@ -11,10 +11,10 @@ function colorirDia(){
     // Verificar se o campo de dia foi preenchido
     if(!days){
         alert("Preencha o campo de dia");
-    } else if((days > 0 )&& (days <= 30){
+    } else if((days > 0 )&& (days <= 30)){
         // Se o número de dias está no intervalo
         // Aplicará a cor no dia correspondente
-
+        // abaixo estão variáveis de bloco
         let td = calendar.getElementsByTagName("td");
 
         td.style.backgroundColor = color;
